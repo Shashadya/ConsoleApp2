@@ -14,6 +14,7 @@
 
 
          Console.WriteLine("Name: "+employee1.FirstName+" "+employee1.LastName+" , "+ "Salary: " +employee1.BasicSalary); 
+
         }
        
         
