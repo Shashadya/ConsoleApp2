@@ -4,19 +4,16 @@
     {
         static void Main(string[] args)
         {
-            int[] numbers = { 1, 2, 3 ,4,5,6,7,8,9,10,11};
-            int total = 0;
             
-            for (int i = 0; i<numbers.Length; i++)
-            {
-                total += numbers[i];
-            }
-            Console.WriteLine("Total= "+total);
-            double average=total/numbers.Length;
-            Console.WriteLine("Average= " + average);
+            Class_Employee employee1 = new Class_Employee();
+            employee1.FirstName = "Chamil";
+            employee1.LastName = "Jeewantha";
+            employee1.BasicSalary = 250000;
 
 
-            
+
+         Console.WriteLine(employee1.FirstName+" "+employee1.LastName);  
+         Console.WriteLine(employee1.BasicSalary);
         }
        
 
