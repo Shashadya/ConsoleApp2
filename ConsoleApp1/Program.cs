@@ -12,7 +12,7 @@
                 total += numbers[i];
             }
             Console.WriteLine("Total= "+total);
-            double average= total / 10;
+            double average= total/numbers.Length;
             Console.WriteLine("Average= " + average);
 
 
