@@ -13,4 +13,5 @@ namespace ConsoleApp1
         public double BasicSalary { get; set; }
 
     }
+   
 }

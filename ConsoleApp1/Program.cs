@@ -10,13 +10,13 @@
             employee1.LastName = "Jeewantha";
             employee1.BasicSalary = 250000;
 
+        
 
 
-         Console.WriteLine(employee1.FirstName+" "+employee1.LastName);  
-         Console.WriteLine(employee1.BasicSalary);
+         Console.WriteLine("Name: "+employee1.FirstName+" "+employee1.LastName+" , "+ "Salary: " +employee1.BasicSalary); 
         }
        
-
+        
 
     }
 }
